@@ -2,7 +2,7 @@
 
 ## Description
 
-Todo List is my project  done by `Javascript` and `CSS`,  where user can add、delete and update tasks in this project.
+Todo List is my project  done by `Javascript` and `HTML`,  where user can add、delete and update tasks in this project.
 
 
 
