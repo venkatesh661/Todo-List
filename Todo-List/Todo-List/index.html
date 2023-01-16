@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todolist</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <main>
+      <div class="hero">
+        <div class="container">
+          <!-- <div class="box"> -->
+            <h1 class="title text-center">Todo List</h1>
+            <p class="subtitle text-center">Welcome to  todolist website</p>
+            <div class="row">
+              <div class="col" style="padding: 0;">
+                <div class="list-input input-group mb-3">
+                  <input type="text" class="form-control inputText rounded-1 border-0" placeholder="Enter a task here">
+                  <button type="button" class="btn add-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                      <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+                    </svg>
+                  </button>
+                  <button type="button" class="btn clear-btn">clear all</button>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col content">
+                <div class="list-control d-flex justify-content-between py-3 align-items-center">
+                  <div class="list-filters">
+                    <span id="all" class="active">All</span>
+                    <span id="pending">To be completed</span>
+                    <span id="completed">completed</span>
+                  </div>
+                </div>
+                <div class="list-content">
+                  <ul class="list">
+                  </ul>
+                </div>
+            </div>
+          <!-- </div> -->
+        </div>
+      </div>
+    </main>
+    <script src="./js/main.js"></script>
+    <script src="sweetalert2.min.js"></script>
+<link rel="stylesheet" href="sweetalert2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+</body>
+</html>
