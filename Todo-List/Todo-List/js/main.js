@@ -21,7 +21,7 @@ const showTodo = (filter) =>{
     let li = '';
     if(todos){
         todos.forEach((todo, id) => {
-            // if todo status is completed, set the isCompleted value to checked 
+            // if todo status is completed, set the  isCompleted value to checked 
             let isCompleted = todo.status == "completed" ? "checked" : "";
             if(filter == todo.status || filter == "all"){
                 li += `
@@ -79,7 +79,7 @@ input.addEventListener('keypress',(event)=>{
         addTask();
     }
 })
-
+  
 // Adding task
 const addTask = () =>{
     let inputValue = input.value;
