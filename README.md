@@ -19,6 +19,5 @@ Todo List is my project  done by `Javascript` and `HTML`,  where user can add、
 - User can clear all tasks
 - User can switch status button freely to view task status
 - Tasks are divided into three categories : **All**, **Completed** and **Pending**
-- In this task user can search the tasks also
 - Tasks and projects are managed with `localStorage`
 
